@@ -1,5 +1,78 @@
-template-repository (1.0-1) unstable; urgency=medium
+emacs-htmlize (1.58-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 1.58
+  * d/control: Declare Standards-Version 4.7.0 (no changes needed)
+  * d/copyright: Bump copyright years
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Lev Lamberov <dogsleg@debian.org>  Tue, 24 Sep 2024 14:42:12 +0500
+
+emacs-htmlize (1.56-2) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild against dh-elpa 2.1.5.
+    Upload pushed to dgit-repos but not salsa.
+    See <https://lists.debian.org/debian-emacsen/2024/07/msg00077.html>.
+
+ -- Sean Whitton <spwhitton@spwhitton.name>  Thu, 25 Jul 2024 19:27:55 +0900
+
+emacs-htmlize (1.56-1) unstable; urgency=medium
+
+  * New upstream version 1.56
+  * Add upstream metadata
+  * d/control: Migrate to debhelper-compat 13
+  * d/control: Declare Standards-Version 4.6.0 (no changes needed)
+  * d/copyright: Update copyright information
+
+ -- Lev Lamberov <dogsleg@debian.org>  Sat, 28 Aug 2021 21:06:38 +0500
+
+emacs-htmlize (1.55-1) unstable; urgency=medium
+
+  * New upstream version 1.55
+  * Migrate to debhelper 12 without d/compat
+  * d/control: Declare Standards-Version 4.4.1 (no changes needed)
+  * d/control: Add Rules-Requires-Root: no
+  * d/control: Drop emacs25 from Enhances
+  * d/copyright: Bump copyright years
+
+ -- Lev Lamberov <dogsleg@debian.org>  Sun, 01 Dec 2019 13:23:22 +0500
+
+emacs-htmlize (1.54-3) unstable; urgency=medium
+
+  * Team upload.
+  * Regenerate source package with quilt patches
+
+ -- David Bremner <bremner@debian.org>  Sun, 25 Aug 2019 14:53:49 -0300
+
+emacs-htmlize (1.54-2) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild with current dh-elpa
+
+ -- David Bremner <bremner@debian.org>  Sun, 25 Aug 2019 09:12:56 -0300
+
+emacs-htmlize (1.54-1) unstable; urgency=medium
+
+  * New upstream version 1.54
+  * Update Maintainer (to Debian Emacsen team)
+  * Declare Standards-Version 4.2.1 (no changes needed)
+
+ -- Lev Lamberov <dogsleg@debian.org>  Fri, 28 Sep 2018 10:04:18 +0500
+
+emacs-htmlize (1.53-1) unstable; urgency=medium
+
+  * New upstream version 1.53
+  * Refresh documentation cleaning patch
+  * Add lintian override to exclude false positive
+  * Migrate to dh 11
+  * d/control: Declare Standards-Version 4.1.4 (no changes needed)
+  * d/control: Remove emacs24 from Enhances
+  * d/control: Change Vcs-{Browser,Git} URL to salsa.debian.org
+  * d/copyright: Bump copyright years
+
+ -- Lev Lamberov <dogsleg@debian.org>  Sat, 07 Apr 2018 13:41:11 +0500
+
+emacs-htmlize (1.51-1) unstable; urgency=medium
+
+  * Initial release (Closes: #873203)
+
+ -- Lev Lamberov <dogsleg@debian.org>  Fri, 25 Aug 2017 17:03:39 +0500
