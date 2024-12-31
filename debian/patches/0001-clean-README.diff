@@ -1,0 +1,35 @@
+From: Lev Lamberov <dogsleg@debian.org>
+Subject: Remove badge icon and link README file
+
+This patch removes badge icon from README files. This icon is intended
+rather for developers, badge is loaded from an external web site and
+not included in the original source. Also this patch removes a link,
+which is obsolete since the linked file can be found in the package's
+documentation.
+
+--- a/README.md
++++ b/README.md
+@@ -1,7 +1,5 @@
+ # htmlize --- Convert buffer text and decorations to HTML
+ 
+-[![MELPA](https://melpa.org/packages/htmlize-badge.svg)](https://melpa.org/#/htmlize)
+-
+ This package converts the buffer text and the associated
+ decorations to HTML.  Mail to <hniksic@gmail.com> to discuss
+ features and additions.  All suggestions are more than welcome.
+@@ -19,7 +17,7 @@ same for files marked in a dired buffer.
+ htmlize supports three types of HTML output, selected by setting
+ `htmlize-output-type`: `css`, `inline-css` (optimized for code
+ snippets), and `font` (simpler output, doesn't rely on CSS).  See
+-[`htmlize.el.html`][1] for an example of generated HTML.
++`htmlize.el.html` for an example of generated HTML.
+ 
+ You can also use htmlize from your Emacs Lisp code.  When called
+ non-interactively, `htmlize-buffer` and `htmlize-region` will
+@@ -31,6 +29,3 @@ colors supported by the terminal.
+ htmlize aims for compatibility with older Emacs versions.  Please
+ let me know if it doesn't work on the version of GNU Emacs that you
+ are using.
+-
+-
+-[1]: http://htmlpreview.github.io/?https://github.com/hniksic/emacs-htmlize/blob/master/htmlize.el.html
